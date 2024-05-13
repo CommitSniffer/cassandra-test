@@ -42,8 +42,6 @@ public class ArrayClustering extends AbstractArrayClusteringPrefix implements Cl
 
     public static ArrayClustering make(byte[]... values)
     {
-        if (true)
-            return new ArrayClustering(values);
-        return null;
+        return new ArrayClustering(values);
     }
 }
