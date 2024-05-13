@@ -7,7 +7,7 @@ import org.apache.cassandra.utils.ObjectTypes;
 /**
  * Represents an array-based clustering prefix for a Cassandra table.
  * <p>
- * This class provides functionality to handle array-based clustering keys
+ * This file provides functionality to handle array-based clustering keys
  * in Cassandra tables.
  */
 public class ArrayClustering extends AbstractArrayClusteringPrefix implements Clustering<byte[]>
